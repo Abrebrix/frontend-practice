@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Medium.woff2);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Bold.woff2);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: #F8FAFC;
+}
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+.team__headline {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.headline__title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #111827
+}
+
+.headline__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6B7280
+}
+
+
+
+.team__grid {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    grid-auto-rows: 200px;
+    row-gap: 50px;
+    column-gap: 90px;
+}
+
+.grid__item {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+.item__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item__title {
+    color: #111827;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.item__subtitle {
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (768px <= width <= 1023) {
+    .team__headline {
+        padding-top: 60px;
+    }
+
+    .team__grid {
+        padding-top: 50px;
+        grid-auto-rows: 150px;
+    }
+}
+
+
+@media (width <= 767px) {
+    .team__headline {
+        padding-top: 40px;
+    }
+
+    .team__grid {
+        padding-top: 40px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 120px;
+        row-gap: 20px;
+        padding-bottom: 40px;
+    }
+}
