@@ -1,0 +1,258 @@
+@media (width < 1200px) {
+    .clients__inner {
+        column-gap: 50px;
+        grid-template-columns: 40% 40%;
+    }
+
+
+
+
+    .featured-projects__inner {
+        align-items: center;
+    }
+
+    .featured-projects__text-block {
+        text-align: center;
+    }
+
+    .featured-projects__images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    .featured-projects__link {
+        padding-bottom: 10px;
+    }
+
+
+
+
+    .our-team__inner {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .our-team__text {
+        text-align: center;
+    }
+
+    .our-team__desc {
+        max-width: 500px;
+    }
+}
+
+@media (992px > width) {
+    .hero__inner {
+        flex-direction: column;
+    }
+
+    .hero__img {
+        min-width: 0;
+    }
+
+    .hero__text {
+    max-width: none;
+    padding: 50px;
+}
+
+    .hero__title {
+        font-size: 36px;
+    }
+
+    .Our-process__item {
+        min-width: 0;
+    }
+
+    .item__description {
+        display: none;
+    }
+}
+
+
+
+
+@media (width < 875px){
+    .header__nav {
+        display: none;
+    }
+
+    .header__inner {
+        justify-content: space-around;
+    }
+
+    .header__logo {
+        margin-right: 0;
+    }
+
+    .our-firm__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .second-degree__content h1 {
+        color: rgb(230, 226, 226);
+    }
+
+    .second-degree__content p {
+        color: rgb(203, 199, 199);
+    }
+
+
+    .second-degree__content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.75);
+        max-width: none;
+        translate: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* по вертикали */
+        align-items: center;     /* по горизонтали */
+        text-align: center;
+    }
+
+
+
+
+    .marble_staircase__content {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        top: 0;
+        right: 0;
+        translate: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .marble_staircase__content p {
+        color: rgb(203, 199, 199);
+    }
+
+    .marble_staircase__content h1 {
+        color: rgb(230, 226, 226);
+    }
+
+
+
+    .clients__inner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 50px;
+    }
+
+    .clients__description {
+        display: none;
+    }
+
+
+
+
+    .swirling-staircase__text {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        translate: 0;
+        background-color: rgba(0, 0, 0, 0.75);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .swirling-staircase__text h1 {
+        color: rgb(230, 226, 226);
+    }
+
+    .swirling-staircase__text p {
+        color: rgb(203, 199, 199);
+    }
+}
+
+
+
+
+
+@media (width < 665px){
+
+}
+
+
+
+
+
+@media (width < 576px){
+    .our-team__images {
+        gap: 50px 20px;
+    }
+
+    .our-team__item {
+        gap: 15px
+    }
+
+
+
+
+    .get-touch__text {
+        gap: 15px
+    }
+
+    .get-touch__inner {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (width < 467px){
+    .header__inner {
+        justify-content: center;
+        padding-block: 33px;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+
+    .Our-process__content {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+
+
+    
+    .clients__images {
+        row-gap: 80px;
+        column-gap: 40px;
+    }
+
+
+
+
+
+    .our-team__item {
+        flex-direction: column;
+    }
+
+
+
+
+
+}
